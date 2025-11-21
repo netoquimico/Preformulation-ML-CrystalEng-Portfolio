@@ -14,13 +14,15 @@ Aplicações reais e reproduzíveis de:
 
 ### Notebooks
 
+### Notebooks
+
 | Notebook | Descrição |
-|---------|----------|
-| 01_Quimiometria_NIR_PLS.ipynb | Modelo PLS validado (R² > 0.98) em dados reais anonimizados de comprimidos |
-| 02_DOE_Preformulacao.ipynb | Otimização de dureza/dissolução com Response Surface Methodology |
-| 03_AlphaFold3_Structure_Prediction.ipynb | Predição de excipientes proteicos e polímeros |
-| 04_DiffDock_Molecular_Docking.ipynb | Docking de lamivudina em transportadores (OCT2, MATE1) |
-| 05_RFdiffusion_Protein_Design.ipynb | Design de novo de mini-proteína binder |
+|----------|-----------|
+| [01_Quimiometria_NIR_PLS.ipynb](notebooks/01_Quimiometria_NIR_PLS.ipynb) | Modelo PLS-R com espectros Micro-NIR (900–1700 nm) para quantificação de API em comprimidos. Dados reais anonimizados, com validação cruzada e gráfico de valor de referência vs. valor predito. |
+| [02_DOE_Preformulacao.ipynb](notebooks/02_DOE_Preformulacao.ipynb) | Design of Experiments (CCD) em pré-formulação de comprimidos, modelando a dureza em função da força de compressão e % de lactose, com superfície de resposta 3D. |
+| [03_AlphaFold3_Structure_Prediction.ipynb](notebooks/03_AlphaFold3_Structure_Prediction.ipynb) | Exemplo conceitual de uso de modelos tipo AlphaFold/ESM para predição estrutural de excipientes proteicos/polímeros e geração de arquivo PDB. |
+| [04_DiffDock_Molecular_Docking.ipynb](notebooks/04_DiffDock_Molecular_Docking.ipynb) | Pipeline de docking com DiffDock: lamivudina como ligante em transportadores renais (OCT2/MATE1), com saída de poses em diretório dedicado. |
+| [05_CrystalEngineering_CIF.ipynb](notebooks/05_CrystalEngineering_CIF.ipynb) | Análise de estrutura cristalina a partir de arquivo CIF (pymatgen + RDKit): sistema cristalino, volume de célula unitária, contatos locais e visualização 3D do packing. |
 
 Autor: José Antônio (netoquimico@gmail.com) | LinkedIn | Lattes
 
