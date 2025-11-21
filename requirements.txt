@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+rdkit
+biopython
+torch>=2.3
+torchvision
+torchaudio
+diffdock @ git+https://github.com/gcorso/DiffDock.git
+openfold==1.0.0  # AlphaFold3-like
+esm @ git+https://github.com/facebookresearch/esm.git
+jupyter
+plotly
+tqdm
